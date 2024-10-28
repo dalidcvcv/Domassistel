@@ -1,0 +1,294 @@
+/* Accueil.css */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .pagination-dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background-color: #ccc; /* Couleur par défaut */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination-dot.active {
+    background-color: #4a5568; /* Couleur active */
+  }
+  
+  .carousel-content {
+    position: relative; /* Position relative pour positionner le texte */
+    cursor: pointer;
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    color: white; /* Couleur du texte pour le contraste */
+    display: flex; /* Pour centrer le texte */
+    flex-direction: column; /* Texte en colonne */
+    justify-content: center; /* Centrer verticalement */
+    align-items: center; /* Centrer horizontalement */
+    padding: 20px; /* Espacement intérieur */
+    text-align: center; /* Centrer le texte */
+  }
+  
+  /*.carousel-image {
+    width: 100%;  
+    height: 100%;  
+    object-fit: cover;  
+    position: absolute;  
+    top: 0;
+    left: 0;
+    z-index: -1;  
+    /*opacity: 0.7;  
+  }*/
+  
+  .carousel-content h3 {
+    font-size: 30px;
+    font-family: Charmonman;
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-weight: 600;
+  }
+
+  .carousel-content p {
+    font-size: 25px;
+    font-family: Charmonman;
+    margin-top: 0;
+    font-weight: 600;
+  }
+
+  .carousel {
+    width: 100%; /* Largeur de votre choix */
+    height: 340px;; /* Hauteur de votre choix */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Masque l'excédent de l'image */
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+    position: absolute;  
+    z-index: -1;  
+    top: 0;
+    left: 0;
+  }
+  
+  #second-text-h3 {
+    margin-top: 0;
+}
+
+#second-text-p {
+    padding-top: 135px;
+    margin-top: 0;
+}
+
+
+.services-section {
+    padding: 40px; /* Espace autour de la section */
+    background-color: #e9f5ff; /* Couleur de fond légère */
+    text-align: center; /* Centrer le texte */
+    position: relative;
+}
+
+.centered-title {
+    margin-bottom: 30px; /* Espace sous le titre */
+    color: #333; /* Couleur du titre */
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.services-container {
+    display: flex; /* Flexbox pour la disposition */
+    flex-wrap: wrap; /* Permet de passer à la ligne */
+    justify-content: center; /* Centrer les cartes */
+    gap: 20px; /* Espace entre les cartes */
+}
+
+.service-card {
+    background-color: white; /* Couleur de fond blanche */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre pour profondeur */
+    padding: 20px; /* Espace intérieur */
+    width: 250px; /* Largeur fixe pour les cartes */
+    transition: transform 0.3s; /* Transition pour l'animation */
+    text-align: left; /* Alignement à gauche pour le texte */
+}
+
+.service-card h3 {
+    margin: 10px 0 5px;
+    padding-top: 20px;
+    font-size: 15px;
+    
+}
+
+.service-card p {
+    margin: 0; /* Pas d'espacement supplémentaire */
+    font-size: 14px;
+}
+
+.service-card i {
+    font-size: 30px; /* Taille de l'icône */
+    /*color: #4a5568; /* Couleur des icônes */
+    margin-right: 38px;
+    color: #4D85CA;
+}
+
+.service-card:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+}
+.services-container {
+    display: flex; /* Utilise flexbox */
+    justify-content: space-between; /* Espace entre les cartes */
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si nécessaire */
+    margin: 69px 20px 9px 20px;
+}
+
+.service-card {
+    flex: 1 1;
+  min-width: 200px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #4D85CA;
+  border-radius: 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  position: relative;
+}
+
+.service-card img {
+    font-size: 40px; /* Taille des icônes */
+    margin-bottom: 10px; /* Espace en dessous de l'icône */
+    width: 50px; /* Largeur des icônes */
+    height: 50px; /* Hauteur des icônes */
+}
+
+.fas {
+    width: 50px;
+  height: 50px;
+  /*border: 2px solid #4a5568;*/
+  border: 2px solid #4D85CA;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: -43px;
+  right: 76px;
+}
+
+hr  {
+    border: 2px solid #4e83b957;
+    width: 80px;
+    margin-bottom: 55px;
+}
+
+.fonctionnement {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container p 
+  {
+    font-size: 15px;
+  }
+  .item {
+    display: flex; /* Aligne le texte et la barre verticale horizontalement */
+    align-items: flex-start; /* Aligne le contenu en haut */
+    margin: 10px 0; /* Ajoute un espacement vertical entre les éléments */
+    flex-basis: 25%;
+  }
+  
+  .separator {
+    width: 8px;
+  background-color: #4e83b957;
+  height: 50px;
+  margin-right: 14px;
+  border-top: transparent;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column; /* Aligne le titre et le texte en colonne */
+  }
+  
+  .text-container strong {
+    margin-left: -18px;
+}
+
+.tarification-section {
+    padding: 20px;
+    background-color: #f9f9f9; /* Couleur de fond légère */
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 8px; /* Coins arrondis */
+    animation: fadeIn 0.5s; /* Animation d'entrée */
+    text-align: center; /* Centre le texte */
+    margin: 20px 0; /* Marges autour de la section */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Commence transparent */
+    }
+    to {
+      opacity: 1; /* Devient opaque */
+    }
+  }
+  
+  .contact-button {
+    margin-top: 20px; /* Espacement au-dessus du bouton */
+    padding: 10px 20px;
+    background-color: #4D85CA; /* Couleur du bouton */
+    color: white; /* Texte blanc */
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; /* Transition pour la couleur */
+  }
+  
+  .contact-button:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  

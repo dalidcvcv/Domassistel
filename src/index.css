@@ -1,0 +1,138 @@
+/* Styles de base */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ECF0F1;
+  color: #2C3E50;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+/* index.css ou un autre fichier CSS global */
+@font-face {
+  font-family: 'TT Geekette Muscles';
+  src: url('./Font/TTGeekette-Muscles_Trial.ttf') format('truetype'); /* Correction de 'ttf' en 'truetype' */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+  
+  
+}
+
+/* Liste des services */
+.services-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-list li {
+  margin: 15px 0;
+  padding: 20px;
+  background-color: #F7F9F9;
+  border-left: 4px solid #3498DB;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Formulaire de contact */
+.contact-section input, .contact-section textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #BDC3C7;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.contact-section input:focus, .contact-section textarea:focus {
+  border-color: #2ECC71;
+}
+
+.contact-section button {
+  background-color: #F1C40F;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.contact-section button:hover {
+  background-color: #F39C12;
+  transform: translateY(-2px);
+}
+
+/* Témoignages */
+blockquote {
+  background-color: #F9E79F;
+  padding: 20px;
+  border-left: 4px solid #F1C40F;
+  border-radius: 8px;
+  font-style: italic;
+  color: #7D6608;
+}
+
+/* Footer */
+footer {
+  background-color: #2C3E50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Effets supplémentaires */
+a {
+  color: #3498DB;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2ECC71;
+}
+
+.services-list {
+  list-style-type: none; /* Supprime les puces */
+  padding: 0;
+}
+
+.services-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  display: flex; 
+  align-items: center; 
+}
+
+.service-icon {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+}
