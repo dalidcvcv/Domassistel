@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/domassistel/static/css/main.6c6c6d88.css",
+    "main.js": "/domassistel/static/js/main.75668e66.js",
+    "static/media/Adaptability.png": "/domassistel/static/media/Adaptability.c765c9926be696eaa427.png",
+    "static/media/Confidentiality.png": "/domassistel/static/media/Confidentiality.1363bb10200e0d5eed4a.png",
+    "static/media/Economic.png": "/domassistel/static/media/Economic.66a8de3c98da51e644a4.png",
+    "static/media/Flexibility.png": "/domassistel/static/media/Flexibility.4ccb8ac7606617899aa1.png",
+    "static/media/Bureau.png": "/domassistel/static/media/Bureau.bb9ff1b509eaeb13249f.png",
+    "static/media/TTGeekette-Muscles_Trial.ttf": "/domassistel/static/media/TTGeekette-Muscles_Trial.857e7b32a6c3680f613b.ttf",
+    "static/media/logo2.png": "/domassistel/static/media/logo2.616cdc1e85afff687223.png",
+    "index.html": "/domassistel/index.html",
+    "main.6c6c6d88.css.map": "/domassistel/static/css/main.6c6c6d88.css.map",
+    "main.75668e66.js.map": "/domassistel/static/js/main.75668e66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c6c6d88.css",
+    "static/js/main.75668e66.js"
+  ]
+}
